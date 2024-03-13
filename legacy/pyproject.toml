@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "bscm2"
+version = "2.1.80"
+description = "Create, edit, play! The Broken Shield RPG Character Management Tool (BSCM2) for the Broken Shield 2.0 tabletop roleplaying game."
+authors = ["Gobion <1312216+brokenshield@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+numpy = "1.26.3"
+python = "^3.10"
+# Pillow = "^9.0.1"
+PyPDF2 = "^3.0.1"
+opencv-python = "^4.8.0.74"
+# pdfrw = {git = "https://github.com/sarnold/pdfrw.git", rev = "master"}
+black = "^23.9.1"
+pydantic = "1.10.9"
+mypy = "^1.4.1"
+Markdown = "^3.3.7"
+customtkinter = "^5.2.0"
+platformdirs = "^3.10.0"
+pathspec = "^0.11.2"
+mypy-extensions = "^1.0.0"
+openpyxl = "^3.1.1"
+textual = "^0.36.0"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
